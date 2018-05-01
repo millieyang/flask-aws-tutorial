@@ -4,9 +4,6 @@
 
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://flasktest:25808433@flasktest.ctwexhj7wyv8.us-east-2.rds.amazonaws.com/flaskdb'
 
-# Uncomment the line below if you want to work with a local DB
-#SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
-
 SQLALCHEMY_POOL_RECYCLE = 3600
 
 WTF_CSRF_ENABLED = True
